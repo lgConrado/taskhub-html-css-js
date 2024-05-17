@@ -11,7 +11,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/input.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/task.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <title>TaskHub</title>
   </head>
   <body>
@@ -28,9 +31,28 @@
         />
         <i class="fa-solid fa-magnifying-glass input--icon"></i>
       </div>
-
+      <div class="card card--done">
+        <span class="card--header">
+          <p>00:00 - 00:00</p>
+          <p>31/12/2024</p>
+        </span>
+        <p class="card--description">Description off task here</p>
+        <span class="card--button">
+          <button class="button--state state--done">Done</button>
+        </span>
+      </div>
+      <div class="card card--not-done">
+        <span class="card--header">
+          <p>00:00 - 00:00</p>
+          <p>31/12/2024</p>
+        </span>
+        <p class="card--description">Description off task here</p>
+        <span class="card--button">
+          <button class="button--state state--not-done">Done</button>
+        </span>
+      </div>
       <div class="box__button">
-        <button class="button--primary">New Task+</button>
+        <button class="button button--primary">New Task+</button>
       </div>
     </main>
     <footer></footer>
