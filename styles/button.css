@@ -5,7 +5,7 @@
 
   .button {
     padding: 1rem 1.5rem;
-    border: 0.125rem solid var(--cor-principal);
+    border: 0.125rem solid var(--primary-color);
     border-radius: 0.5rem;
     box-shadow: var(--effect-shadow-enabled-primary);
     cursor: pointer;
@@ -15,7 +15,7 @@
   }
 
   .button--primary {
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     color: var(--gray-50);
   }
 
@@ -33,7 +33,7 @@
 
   .button--secondary {
     background-color: transparent;
-    color: var(--cor-principal);
+    color: var(--primary-color);
   }
 
   .button--secondary:focus, .button--secondary:hover {

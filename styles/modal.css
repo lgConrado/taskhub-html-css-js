@@ -1,0 +1,70 @@
+.box__modal[view="true"] {
+    position: fixed;
+    top: -4rem;
+    left: 0;
+    background-color: rgba(0, 0, 0, .64);
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__modal[view="false"] {
+    display: none;
+}
+
+.modal {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    gap: 2rem;
+    padding: 4rem;
+    position: absolute;
+}
+
+.modal__inputs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 4rem;
+}
+
+.modal__input {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.modal__input>label {
+    color: var(--gray-950);
+    font-weight: 700;
+}
+
+.modal__input>input {
+    padding: 1rem;
+    border-radius: .5rem;
+    color: var(--gray-400);
+    font-size: 1rem;
+    border: .125rem solid var(--gray-200);
+    outline: none;
+    transition: .3s all ease-in-out;
+}
+
+.modal__input>input:hover {
+    color: var(--gray-500);
+    border-color: var(--gray-300);
+}
+
+.modal__input>input:focus{
+    border-color: var(--primary-color);
+}
+
+.modal__button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}

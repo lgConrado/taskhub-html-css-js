@@ -12,7 +12,7 @@
 }
 
 .card--done {
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     color: var(--gray-100);
 }
 
@@ -47,13 +47,13 @@
 }
 
 .state--done {
-    color: var(--cor-principal);
+    color: var(--primary-color);
     border-color: var(--gray-50);
     box-shadow: var(--effect-shadow-enabled-light);
 }
 
 .state--done:hover {
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     color: var(--gray-50);
     box-shadow: var(--effect-shadow-hovered-light);
 
@@ -67,9 +67,9 @@
 }
 
 .state--not-done {
-    background-color: var(--cor-principal);
+    background-color: var(--primary-color);
     color: var(--gray-50);
-    border-color: var(--cor-principal);
+    border-color: var(--primary-color);
     box-shadow: var(--effect-shadow-enabled-primary);
 }
 
